@@ -85,14 +85,14 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.sin.fan:443,www.dbs.com.sg:443,cdn.204910.best:443,funko.com:443,www.sloomb.com:443,www.vmware.com:443,cloudflare.idc.rocks:443,"
-      "www.udacity.com:443,linear.app:443,m.iyf.tv:443,hsl.upstate.edu:443,store.ubi.com:443,www.leics.police.uk:443,markmonitor.com:443",
+        "cdn.sketch.com:443,kniu.cc:443,mokeedev.com:443,fonts.cdnfonts.com:443,dx.doi.org:443,servo.org:443,my.vultr.com:443,"
+      "cu.zxy88.eu.org:443,www.meteorelectrical.com:443,s.bookcdn.com:443,codeforces.com:443,aandd.co.jp:443,rankmath.com:443,js.org:443",
     ).split(",")
     if h.strip()
 ]
 
 # 优选 API 地址配置 (支持逗号分隔多个，可配置在 GitHub Action Secret / Env 中)
-OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/ct?ips=6&port=443[cite: 2, 3],https://cf.090227.xyz/cmcc?ips=8&port=443[cite: 3]")
+OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/ct?ips=6&port=443[cite: 2, 3],https://cf.090227.xyz/cmcc?ips=8&port=443[cite: 3],https://cf.090227.xyz/cu?port=443[cite: 3]")
 
 NODES_URL = os.environ.get("NODES_URL", "https://r9black.github.io/gate/nodes.txt")
 
